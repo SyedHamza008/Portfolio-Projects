@@ -1,48 +1,9 @@
-🧑‍💻 Syed Hamza – AI & Full-Stack Developer
-Python | Flask | FastAPI | React |NodeJs | Tailwind | MongoDB | MySQL | AI/ML Enthusiast
+# PDF Table Extractor (Flask Web App)
 
-🚀 Passionate about building AI-driven platforms, scalable backends, and production-ready web apps.
-I love working on EdTech, AI tools, APIs, and automation systems that solve real problems.
-
-**🔥 About Me!**
-
-🎓 Self-taught developer working on Frontend AI & backend systems
-
-🧠 Building an AI Personalized Learning System
-
-🛠 Creating production-grade apps with Flask, FastAPI, and React
-
-💼 Open for freelance projects and remote developer roles
-
-📚 Constantly learning: LLMs, NLP, Vector DBs, System Design
-
-🌍 Based in Pakistan
-
-**🚀 Skills & Technologies**
-Languages
-Python
-JavaScript
-
-Backend
-
-Node.js
-Flask
-FastAPI
-
-Frontend
-
-React.JS
-Tailwind.CSS
-Bootstrap.CSS
-CSS
-HTML
-
-Databases
-
-MongoDB
-SQL
-Firebase
-
-Tools & DevOps
-
-
+A lightweight web application built with Python and Flask that allows users to upload PDF documents, automatically extracts tabular data from them, cleans up complex/messy headers, and displays the tables on the web while generating a downloadable Excel (`.xlsx`) file.
+## Features
+**File Uploading:** Securely handles PDF uploads using Flask.
+**Data Extraction:** Uses `pdfplumber` to scrape tables from multiple PDF pages.
+**Data Cleaning:** Uses `pandas` to merge multi-line headers and remove blank `NaN` artifacts from the PDF extraction process.
+**Export to Excel:** Automatically generates an Excel file with each table on a separate sheet using `openpyxl`.
+**Responsive Frontend:** Simple, clean UI built with Bootstrap 5.
