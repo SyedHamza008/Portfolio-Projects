@@ -1,6 +1,5 @@
 import os
 from flask import Flask
-from . import db
 from . import todoRoutes
 
 def create_app(test_config=None):
